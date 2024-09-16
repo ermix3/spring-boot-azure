@@ -13,7 +13,7 @@ spring:
   datasource:
     url: jdbc:postgresql://ermix.postgres.database.azure.com:5432/sb-azure-db
     username: userazure
-    password: userazure
+    password: USERAZURE
     driver-class-name: org.postgresql.Driver
 
   # Flyway Migration Configuration
