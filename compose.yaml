@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=sb-azure-db'
+      - 'POSTGRES_PASSWORD=userazure'
+      - 'POSTGRES_USER=userazure'
+    ports:
+      - '5433:5432'
